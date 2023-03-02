@@ -1,16 +1,6 @@
-# lab3_193059
+# lab4_193059
+Laboratoriska vezba 4 po Mobilni informaciski sistemi
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Да се имплементира календар кој ќе овозможи преглед на распоредот за студентот. - Во Flutter_lab4/lib/screens/calendar_screen.dart со помош на зависноста syncfusion_flutter_calendar е имплементиран календар со датумите за секое полагање.
+- Да овозможи повеќе корисници со памтење на состојбата за секој корисник со едноставна автентификација. - Flutter_lab4/lib/screens/signin_screen.dart е овозможена состојба за корисникот и автентикација со зависностите firebase_core и firebase_auth
+- Да овозможи нотификации (локални или push) за потсетување за некој настан. - главната логика за известувањата е во Flutter_lab4/lib/services/notifications.dart а повикувањето е во Flutter_lab4/lib/screens/home_screen.dart, користени се зависностите intl и flutter_local_notifications
