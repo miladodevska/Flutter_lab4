@@ -29,6 +29,19 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.4.0
+  firebase_auth: ^4.2.1
+  syncfusion_flutter_calendar: ^20.4.38
+  intl: ^0.17.0
+  flutter_local_notifications: ^13.0.0
+  timezone: ^0.9.0
+  rxdart: ^0.27.7
+  dio: ^4.0.6
+  google_maps_flutter: ^2.2.3
+  geolocator: ^9.0.2
+  geocoding: ^2.0.5
+  flutter_polyline_points: ^0.2.6
   nanoid:
   flutter:
     sdk: flutter
@@ -36,14 +49,6 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
-  firebase_core: ^2.4.0
-  firebase_auth: ^4.2.3
-  syncfusion_flutter_calendar: ^20.4.38
-  intl: ^0.17.0
-  flutter_local_notifications: ^13.0.0
-  timezone: ^0.9.0
-  rxdart: ^0.27.7
 
 dev_dependencies:
   flutter_test:
